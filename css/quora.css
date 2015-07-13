@@ -1,0 +1,5 @@
+ #container {
+  background: url("../images/quora.jpg");
+  height: 100%;
+  background-size: cover;
+ }
