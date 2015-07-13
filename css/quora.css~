@@ -1,4 +1,115 @@
- #container {
-  background: url("../images/quora.jpg");
+body {
+  background: url("../images/quora.png");
   height: 100%;
+  background-size: cover;
  }
+ 
+ #content {
+      display:flex;
+      justify-content:space-around;
+       border-style: solid;
+       border-width: 1px;
+       border-color: darkgray;
+       border-radius: 5px;
+       width: 700px;
+       background: #F0E8D0; 
+       position: relative;
+       left: 300px;
+       
+        
+ }
+  #quora {
+  	font-family: 'Raleway' sans-serif;
+   font-weight: 700;
+   font-size: 66px;
+   color: darkred; 
+   text-align: center;
+   margin-top: 50px;
+  }
+  
+  #quora p {
+    font-size: 15px;
+    color: gray;
+    padding-top: -25px;
+  }
+  
+  #google {
+  color: white;
+  background: #d00;
+  margin-top: 26px;
+  width: 100%;
+  border-radius: 2px;
+  }
+  
+  #facebook {
+  color: white;
+  background: #000080;
+  width: 100%;
+  border-radius: 2px;
+  }
+  
+  #twitter {
+  color: white;
+  background: teal;
+  width: 100%;
+  border-radius: 2px;
+  }
+  
+  .text {
+   padding-left: 7px; 
+  }
+  
+ 
+  
+  #social p {
+  margin-top: 25px;
+  }
+  
+ /* #terms {
+  text-decoration: none;
+  color: #ddd;
+  } */
+  
+  .row {
+   font-size: 21px;
+  }
+  #links {
+   text-decoration: none;
+   text-align: center;
+   margin-bottom: 250px;
+  }
+  
+  #links a {
+   color: #413839;
+   padding: 10px 18px;
+   font-weight: 500;
+   font-size: 16px;
+  }
+  
+  h6{
+  padding-top: 10px;
+  font-weight: 700;
+  }
+  
+  #log{
+  	float: right;
+  	margin-top: 10px;
+  	margin-bottom: 9px;
+  	background-color: #4169E1;
+  }
+  
+  .headerdivider {
+    border-left: 1px solid #38546d;
+    background: #16222c;
+    width: 1px;
+    height: 180px;
+    position: absolute;
+    top:50px;
+    left: 390px;
+}
+
+#google, #facebook, #twitter {
+ height: 49px;
+ padding-top: 6px;
+}
+  

@@ -8,6 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         
         <link type="text/css" rel="stylesheet" href="css/quora.css"  media="screen,projection"/>
+        <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     </head>
 
     <body>
@@ -16,36 +17,37 @@
             <div id="quora">
              <head>Quora</head>
                 <p>The best answer to any question</p>
-            </div>
+        </div>
             
            <div id="content">
                
                <div id="social">
                
                   <div  class="row">
-                    <div id="google" class="col s6"><img src="images/google.png"> Sign Up With Google</div>
+                      <div id="google" class="col s6"><img src="images/google.png"><span class="text"> Sign Up With Google</span></div>
                   </div> 
                    
                    <div class="row">
-                    <div id="facebook" class="col s6"><img src="images/facebook.png"> Sign Up With Facebook</div>
+                       <div id="facebook" class="col s6"><img src="images/facebook.png"> <span class="text">Sign Up With Facebook</span></div>
                   </div> 
                
                    <div class="row">
-                    <div id="twitter" class="col s6"><img src="images/twitter.png"> Sign Up With Twitter</div>
+                    <div id="twitter" class="col s6"><img src="images/twitter.png"> <span class="text">Sign Up With Twitter</span></div>
                   </div> 
-                   <p><a href="#">Sign Up With Email.</a>By signing up you<br /> indicate that you have read and agree to the <br /> Terms of Service.
+                   <p><a href="#">Sign Up With Email.</a> By signing up you<br /> indicate that you have read and agree to the <br /> <span id="terms"><a  href="#">Terms of Service</a></span>.
                    </p> 
                    
                </div>
-               
+                    <span class="headerdivider"></span>
                <div id="login">
+                 
                    <h6>LOG IN</h6>
                    
                    <div class="row">
                        
                        <div class="input-field col s6">
-                        <input id="last_name" type="text" class="validate">
-                        <label for="last_name">Email</label>
+                        <input id="email" type="text" class="validate">
+                        <label for="email">Email</label>
                        </div>
                        
                    </div>
@@ -65,9 +67,9 @@
                        </div>
                    </div>
                    
-                   <a href="#">Forgot password?</a>
+                   <a id="forgot" href="#">Forgot password?</a><br />
                    
-                   <a class="waves-effect waves-light btn">Log In</a>
+                   <a id="log" class="waves-effect waves-light btn">Log In</a>
                
                </div>
                
