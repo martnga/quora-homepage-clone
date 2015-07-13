@@ -3,3 +3,37 @@ body {
   height: 100%;
   background-size: cover;
  }
+ 
+ #content {
+      display:flex;
+      justify-content:space-around;
+       border-style: solid;
+       border-width: 1px;
+       border-color: darkgray;s
+ }
+  #quora {
+   font-weight: 700;
+   font-size: 56px;
+   color: darkred; 
+   text-align: center;
+  }
+  
+  #quora p {
+    font-size: 15px;
+    color: gray;
+  }
+  
+  #google {
+  color: white;
+  background: red;
+  }
+  
+  #facebook {
+  color: white;
+  background: #000080;
+  }
+  
+  #twitter {
+  color: white;
+  background: teal;
+  }
