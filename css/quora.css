@@ -9,18 +9,26 @@ body {
       justify-content:space-around;
        border-style: solid;
        border-width: 1px;
-       border-color: darkgray;s
+       border-color: darkgray;
+       width: 700px;
+       background: #F0E8D0; 
+       position: relative;
+       left: 300px;
+       
+        
  }
   #quora {
    font-weight: 700;
    font-size: 56px;
    color: darkred; 
    text-align: center;
+   margin-top: 70px;
   }
   
   #quora p {
     font-size: 15px;
     color: gray;
+    padding-top: -25px;
   }
   
   #google {
@@ -37,3 +45,17 @@ body {
   color: white;
   background: teal;
   }
+  
+  #links {
+   text-decoration: none;
+   text-align: center;
+   
+  }
+  
+  #links a {
+   color: #1a1a1a;
+   padding: 10px 18px;
+   font-weight: 500;
+   font-size: 16px;
+  }
+  
