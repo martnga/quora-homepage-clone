@@ -65,10 +65,10 @@ body {
   margin-top: 25px;
   }
   
-  a #terms {
+ /* #terms {
   text-decoration: none;
-  color: #888;
-  }
+  color: #ddd;
+  } */
   
   .row {
    font-size: 21px;
@@ -76,7 +76,7 @@ body {
   #links {
    text-decoration: none;
    text-align: center;
-   
+   margin-bottom: 250px;
   }
   
   #links a {
