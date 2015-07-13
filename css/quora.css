@@ -10,6 +10,7 @@ body {
        border-style: solid;
        border-width: 1px;
        border-color: darkgray;
+       border-radius: 5px;
        width: 700px;
        background: #F0E8D0; 
        position: relative;
@@ -34,18 +35,28 @@ body {
   #google {
   color: white;
   background: red;
+  margin-top: 26px;
+  width: 100%;
+  border-radius: 2px;
   }
   
   #facebook {
   color: white;
   background: #000080;
+  width: 100%;
+  border-radius: 2px;
   }
   
   #twitter {
   color: white;
   background: teal;
+  width: 100%;
+  border-radius: 2px;
   }
   
+  #social p {
+  margin-top: 25px;
+  }
   #links {
    text-decoration: none;
    text-align: center;
@@ -57,5 +68,17 @@ body {
    padding: 10px 18px;
    font-weight: 500;
    font-size: 16px;
+  }
+  
+  h6{
+  padding-top: 10px;
+  font-weight: 700;
+  }
+  
+  #log{
+  	float: right;
+  	margin-top: 10px;
+  	margin-bottom: 9px;
+  	
   }
   
