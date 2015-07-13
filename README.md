@@ -1,3 +1,10 @@
+This was a design replication of www.quora.com on 13/7/2015. I made sure one could see the striking similarities.
+I used materializecss.com for this project.
+
+
+
+
+
 ![alt tag](https://raw.github.com/dogfalo/materialize/master/images/materialize.gif)
 ===========
 
